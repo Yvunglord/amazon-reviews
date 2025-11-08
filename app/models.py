@@ -1,5 +1,5 @@
 from sqlalchemy import Column, String, Float, BigInteger
-from database import Base
+from app.database import Base
 
 class Review(Base) :
     __tablename__ = "reviews"
